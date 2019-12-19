@@ -9,6 +9,7 @@
 #define BOOST_FIBERS_ASIO_YIELD_HPP
 
 #include <boost/config.hpp>
+#include <boost/system/error_code.hpp>
 
 #ifdef BOOST_HAS_ABI_HEADERS
 #  include BOOST_ABI_PREFIX
